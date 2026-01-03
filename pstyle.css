@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f6fb;
+    color: #2c2c2c;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(135deg, #6a85b6, #bac8e0);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    color: #3f51b5;
+    margin-bottom: 15px;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.project {
+    background: #eef1ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
